@@ -1,0 +1,75 @@
+/* html tag selector controlling body tag*/
+body {
+background-color: silver;
+margin: 0px;
+padding: 60px;
+}
+
+/* decendant selector, h2 is a child of main*/
+main h2 {
+color: steelblue;
+margin: 20px 0px 5px 0px;
+}
+
+main h3 {
+    color: slategrey;
+    font-style: oblique;
+    margin: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+header h1 {
+    color: slategrey;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+}
+
+header h2 {
+    color: darkolivegreen;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px 30px 0px;
+}
+
+nav a {
+    font-weight: 900;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+nav a:hover {
+color:beige;
+background-color: darkolivegreen;
+text-decoration: underline;
+}
+
+main a {
+font-size: 20px;
+font-family:'Courier New', Courier, monospace;
+text-decoration: none;
+color: black;
+}
+
+main a:hover {
+color: beige;
+background-color: darkolivegreen;
+text-decoration: underline;
+}
+
+main img {
+width: 300px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+li b {
+    color: steelblue;
+}
