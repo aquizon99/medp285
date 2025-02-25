@@ -1,0 +1,93 @@
+body {
+    background-image: url('images/08.jpg');
+    padding: 20px;
+    font-family: "Arsenal SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    color: rgb(94, 127, 160);
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#wrapper {
+    background-color: rgb(233, 227, 227);
+}
+
+header {
+    background-color: rgb(231, 224, 210);
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(97, 154, 201);
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 40px;
+    font-family: "Arsenal SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+        "wdth" 100;
+        font-size: 22px;
+        text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+nav a:hover {
+    color:rgb(247, 247, 247);
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(214, 212, 212);
+}
+
+main h2 {
+    color: rgb(44, 79, 110);
+    margin: 20px 0px 5px 0px;
+}
+
+img {
+    border: 1px solid rgb(48, 46, 46);
+    border-radius: 4px;
+     padding: 5px;
+     width: 220px;
+     height: 230px;
+     margin: 20px;
+}
+
+section {
+    background-color: rgb(179, 168, 168);
+    padding: 10px;
+}
+
+article {
+    background-color: rgb(172, 206, 219);
+    padding: 20px 50px;
+    border: rgb(22, 22, 22) dashed 3px;
+    margin: 20px 10px;
+}
+
+footer {
+    background-color: rgb(160, 157, 157);
+    padding: 10px;
+}
