@@ -1,0 +1,91 @@
+/* border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* remove margin and padding on body */
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: "Indie Flower", cursive;
+  font-size: 19px;
+  font-style: normal;
+}
+
+/* Grouping example */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background: #ffffff;
+  width: 70%;
+  margin: 0 auto;
+    /*  grid layout parent */
+  display: grid;
+  /* create 12 col layout */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* padding on immediate children of wrapper */
+.wrapper>* {
+  padding: 20px;
+}
+img {
+  border: 1px solid #4e3c1b;
+  border-radius: 4px;
+   padding: 5px;
+   width: 200px;
+   height: 190px;
+   margin: 12px;
+   display: block;
+   margin: 0px 0px 12px 2px; 
+  }
+  
+
+header {
+  background: #a1907a;
+  /* span all 12 cols */
+  grid-column: 1 / 13;
+}
+
+nav {
+  background: #ead5ec;
+    /* span all 12 cols */
+    grid-column: 1 / 4;
+}
+
+main {
+  background: #acb0b4;
+    /* span all 12 cols */
+    grid-column: 4 / 10;
+}
+
+aside {
+  background: #d6bb9a;
+      /* span all 12 cols */
+      grid-column: 10 / 13;
+}
+
+main,
+nav,
+aside {
+  grid-row: 2 / 4;
+}
+
+footer {
+  background: #bfe9fc;
+    /* span all 12 cols */
+    grid-column: 1 / 13;
+}
