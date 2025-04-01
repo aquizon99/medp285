@@ -332,6 +332,7 @@ header {
     order: 1;
     animation: fadeIn 1.5s ease-in-out;
     /* Fade in effect */
+    box-shadow: 10px 10px 5px #000000cc;
 }
 
 /* Apply fade-in animation to Gengar page header */
@@ -339,6 +340,7 @@ header {
     background: #5d3881;
     grid-column: 1 / 13;
     animation: fadeIn 1.5s ease-in-out;
+    box-shadow: 10px 10px 5px #000000cc;
 }
 
 /* Apply fade-in animation to Umbreon page header */
@@ -347,4 +349,5 @@ header {
     flex: 1 0 100%;
     order: 1;
     animation: fadeIn 1.5s ease-in-out;
+    box-shadow: 10px 10px 5px #000000cc;
 }
